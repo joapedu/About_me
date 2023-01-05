@@ -74,3 +74,34 @@ main.techs .cards-container .card img {
     width: 80%;
 }
 
+/* figure */
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+
+    margin-bottom: 6%;
+    cursor: pointer;
+    border: 1px #6d3cff solid;
+    transition: 0.2s ease-in-out;
+}
+
+main figure img:hover {
+    box-shadow: 0px 0px 10px #00e0ff;
+}
+
+main figure figcaption {
+    color: #6d3cff;
+    transition: 0.2s ease-in-out;
+}
+
+main figure figcaption:hover {
+    color: #00e0ff;
+}
