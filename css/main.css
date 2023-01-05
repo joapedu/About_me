@@ -15,6 +15,12 @@ main .main-content {
 main .main-content h2 {
     margin-bottom: 2%;
     font-size: 2.2em;
+    color: #00e0ff;
+    transition: 0.2s ease-in-out;
+}
+
+main .main-content h2:hover {
+    color: #fff;
 }
 
 main .main-content .text p {
@@ -23,4 +29,48 @@ main .main-content .text p {
     font-weight: 300;
 }
 
+main .main-content .text p span {
+    color: #6d3cff;
+}
+
+main .main-content .text p span:hover {
+    transition: 0.2s ease-in-out;
+    color: #00e0ff;
+}
+
+main .main-content .text span1 {
+    width: 105%;
+    font-size: 1.5em;
+    font-weight: 300;
+
+    display:inline;
+    text-align: right;
+    align-items:center;
+    justify-content: right;
+}
+
 /*cards*/
+main .techs .cards-container {
+    display: flex;
+    align-items: center;
+}
+
+main .techs .cards-container .card {
+    width: 120px;
+    height:  120px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    margin-right: 4.8em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main.techs .cards-container .card img {
+    width: 80%;
+}
+

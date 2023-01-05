@@ -4,4 +4,9 @@ footer {
     text-align: center;
     font-size: small;
     color: #00e0ff;
+    transition: 0.2s ease-in-out
+}
+
+footer:hover {
+    color: #fff;
 }
