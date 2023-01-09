@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     main {
         width: 100%;
 
@@ -24,7 +24,7 @@
     }
 
     main .techs .cards-container .main-content .text p {
-        margin-top: 32px;
+        margin-top: 30px;
     }
 }
 
