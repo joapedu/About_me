@@ -16,11 +16,15 @@
 
     main .main-content .text, .techs {
         text-align: center;
+        margin-right: 3em;
+        margin-left: 4em;
+        margin-top: 3em;
+        margin-bottom: 2em;
     }
 
     main .main-content .text p {
         width: 100%;
-        font-size: 0.93em;
+        font-size: 1em;
     }
 
     main .techs .cards-container .main-content .text p {
@@ -50,8 +54,10 @@
     }
     
     main .techs .cards-container .card {
-        width: 60px;
-        height: 60px;
+        margin-right: 3em;
+        margin-left: 4em;
+        margin-top: 3em;
+        margin-bottom: 2em;
     }
 
     main .main-content .text h2, .main-content .techs h2 {
